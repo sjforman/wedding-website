@@ -1,0 +1,40 @@
+IMG.banner-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+} 
+
+IMG.us-image {
+    display:block;
+    width: 330px;
+    margin-top: 20px;
+    float: left
+}
+
+#date {
+    color: gray;
+}
+
+#nav-links {
+    margin-top: 25px;
+}
+
+a.inactive {
+    color: #CCCCCC;
+}
+
+#main-content {
+    margin-top: 30px;
+}
+
+.detailtext {
+    margin-top: 30px;
+    padding-right: 60px;
+    float: right
+}
+
+p.names {
+    font-size: 18px;
+    font-weight: bold;
+}
