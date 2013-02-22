@@ -12,6 +12,11 @@ IMG.us-image {
     float: left
 }
 
+IMG.us-image-small {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
 #date {
     color: gray;
 }
@@ -31,7 +36,11 @@ a.inactive {
 .detailtext {
     margin-top: 30px;
     padding-right: 60px;
-    float: right
+    float: right;
+}
+
+.introtext {
+    margin-top: 20px;
 }
 
 p.names {
