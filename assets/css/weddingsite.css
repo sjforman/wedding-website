@@ -1,3 +1,7 @@
+body{
+    background: #FDFDFD;
+}
+
 IMG.banner-image {
     display: block;
     margin-left: auto;
@@ -15,6 +19,11 @@ IMG.us-image {
 IMG.us-image-small {
     margin-top: 30px;
     margin-bottom: 20px;
+}
+
+.nav h3 {
+    line-height: 26px;
+    padding-top: 10px;
 }
 
 #date {
