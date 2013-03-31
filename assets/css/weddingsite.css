@@ -1,59 +1,43 @@
 body{
-    background: #FDFDFD;
+    background: rgb(200, 201, 206); 
 }
 
-IMG.banner-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+p,a{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Ostrich', sans-serif;
+}
+
+#names {
+    font-family: 'Ostrich Black', sans-serif;
+}
+
+.tile{
     margin-top: 30px;
-} 
-
-IMG.us-image {
-    display:block;
-    width: 330px;
-    margin-top: 20px;
-    float: left
-}
-
-IMG.us-image-small {
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-
-.nav h3 {
-    line-height: 26px;
-    padding-top: 10px;
+    background: white;
+    padding: 20px;
 }
 
 #date {
     color: gray;
 }
 
-#nav-links {
-    margin-top: 25px;
-}
+@font-face {
+  font-family: "Ostrich";
+  src: url("../type/ostrich-regular-webfont.eot");
+  src: local("☺"),
+    url("../type/ostrich-regular-webfont.woff") format("woff"),
+    url("../type/ostrich-regular-webfont.otf") format("opentype"),
+    url("../type/ostrich-regular-webfont.svg#ostrich-regular-webfont") format("svg");
+  }
 
-a.inactive {
-    color: #CCCCCC;
-}
-
-#main-content {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.detailtext {
-    margin-top: 30px;
-    padding-right: 60px;
-    float: right;
-}
-
-.introtext {
-    margin-top: 20px;
-}
-
-p.names {
-    font-size: 18px;
-    font-weight: bold;
-}
+@font-face {
+  font-family: "Ostrich Black";
+  src: url("../type/ostrich-black-webfont.eot");
+  src: local("☺"),
+    url("../type/ostrich-black-webfont.woff") format("woff"),
+    url("../type/ostrich-black-webfont.otf") format("opentype"),
+    url("../type/ostrich-black-webfont.svg#ostrich-black-webfont") format("svg");
+  }
