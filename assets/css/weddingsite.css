@@ -2,7 +2,7 @@ body{
     background: rgb(200, 201, 206); 
 }
 
-p,a{
+p,a,ul,ol{
     font-family: 'Merriweather Sans', sans-serif;
 }
 
